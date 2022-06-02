@@ -113,7 +113,7 @@ ul{
 .add_modal__wrapper{
     width: 530px;
     padding: 70px;
-    height: 100vw;
+    height: 100vh;
     position: relative;
     background: #3c4953;
 
@@ -172,6 +172,23 @@ span#close-modal{
 }
 
 
+
+
+@media screen and (max-width: 1000px){
+    .list_item{
+        flex-direction: column;
+    }
+
+    .list_item__thumb{
+        width: 100%;
+        height: 100vh;
+        align-self: center;
+    }
+    .add_modal__wrapper{
+        width: 100vw;
+    
+    }
+}
 
 
 
